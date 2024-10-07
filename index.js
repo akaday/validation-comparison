@@ -1,6 +1,4 @@
-// Example for JavaScript
 const Ajv = require('ajv');
-const arktype = require('arktype');
 const bueno = require('bueno');
 const { validate } = require('class-validator');
 const { plainToClass } = require('class-transformer');
@@ -43,3 +41,9 @@ const valita = require('valita');
 const Vality = require('Vality');
 const yup = require('yup');
 const zod = require('zod');
+
+// Dynamic import for arktype
+(async () => {
+    const arktype = await import('arktype');
+    // Your code using arktype goes here
+})();
