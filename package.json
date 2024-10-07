@@ -9,6 +9,6 @@
   "dependencies": {
     "ajv": "^8.0.0",
     "arktype": "^1.0.0",
-    // other dependencies
+    
   }
 }
